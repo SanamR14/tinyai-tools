@@ -1,6 +1,6 @@
 export default function SupportButton() {
   return (
-    <div className="mt-8 text-center">
+    <div className="mt-8 text-right">
       <a
         href="https://buymeacoffee.com/sanamr" // ← replace with your link
         target="_blank"

@@ -31,7 +31,6 @@ export default function Home() {
           📄 Summarizer
         </Link>
       </div>
-      <SupportButton />
     </main>
   );
 }

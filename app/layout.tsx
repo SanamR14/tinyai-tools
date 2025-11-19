@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import SupportButton from "@/components/SupportButton";
 
 export const metadata = {
   title: "TinyAI Tools | Free AI Writing Utilities",
@@ -36,6 +37,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-white text-gray-900">
         <Navbar />
+        <SupportButton />
         <main className="min-h-[80vh]">{children}</main>
         <Footer />
       </body>
