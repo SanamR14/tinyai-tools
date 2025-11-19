@@ -8,28 +8,39 @@ export default function Home() {
         ✨ TinyAI Tools ✨
       </h1>
       <p className="text-gray-600 mb-6 max-w-lg">
-        Free AI-powered tools to rewrite, summarize, and create engaging
-        captions instantly.
+        Free AI-powered tools to rewrite, summarize, generate captions, and
+        create trending hashtags instantly.
       </p>
+
       <div className="flex flex-wrap justify-center gap-4">
         <Link
           href="/tools/caption"
-          className="border rounded-lg p-4 w-48 hover:bg-gray-100"
+          className="border rounded-lg p-4 w-48 hover:bg-indigo-50 hover:shadow-md transition"
         >
           📸 Caption Generator
         </Link>
         <Link
+          href="/tools/hashtags"
+          className="border rounded-lg p-4 w-48 hover:bg-indigo-50 hover:shadow-md transition"
+        >
+          🏷️ Hashtag Generator
+        </Link>
+        <Link
           href="/tools/rewriter"
-          className="border rounded-lg p-4 w-48 hover:bg-gray-100"
+          className="border rounded-lg p-4 w-48 hover:bg-indigo-50 hover:shadow-md transition"
         >
           ✍️ Text Rewriter
         </Link>
         <Link
           href="/tools/summarize"
-          className="border rounded-lg p-4 w-48 hover:bg-gray-100"
+          className="border rounded-lg p-4 w-48 hover:bg-indigo-50 hover:shadow-md transition"
         >
           📄 Summarizer
         </Link>
+      </div>
+
+      <div className="mt-8">
+        <SupportButton />
       </div>
     </main>
   );

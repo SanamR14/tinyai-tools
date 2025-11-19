@@ -1,4 +1,5 @@
 "use client";
+import SupportButton from "@/components/SupportButton";
 import { useState } from "react";
 
 export default function CaptionGenerator() {
@@ -123,6 +124,9 @@ export default function CaptionGenerator() {
             </ul>
           </div>
         )}
+      </div>
+      <div className="mt-8">
+        <SupportButton />
       </div>
     </main>
   );

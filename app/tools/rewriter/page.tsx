@@ -1,4 +1,5 @@
 "use client";
+import SupportButton from "@/components/SupportButton";
 import { useState } from "react";
 
 export default function TextRewriter() {
@@ -80,6 +81,9 @@ export default function TextRewriter() {
             </div>
           </div>
         )}
+      </div>
+      <div className="mt-8">
+        <SupportButton />
       </div>
     </main>
   );

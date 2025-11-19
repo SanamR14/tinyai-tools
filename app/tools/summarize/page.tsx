@@ -1,4 +1,5 @@
 "use client";
+import SupportButton from "@/components/SupportButton";
 import { useState } from "react";
 
 export default function Summarizer() {
@@ -81,6 +82,9 @@ export default function Summarizer() {
             </div>
           </div>
         )}
+      </div>
+      <div className="mt-8">
+        <SupportButton />
       </div>
     </main>
   );

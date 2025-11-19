@@ -16,6 +16,9 @@ export default function Navbar() {
           <Link href="/tools/caption" className="hover:text-indigo-600">
             Captions
           </Link>
+          <Link href="/tools/hashtags" className="hover:text-indigo-600">
+            Hashtags
+          </Link>
           <Link href="/tools/rewriter" className="hover:text-indigo-600">
             Rewriter
           </Link>
@@ -38,6 +41,18 @@ export default function Navbar() {
       {menuOpen && (
         <div className="md:hidden flex flex-col items-center bg-white border-t">
           <Link
+            href="/tools/caption"
+            className="py-2 w-full text-center hover:bg-gray-100"
+          >
+            Captions
+          </Link>
+          <Link
+            href="/tools/hashtags"
+            className="py-2 w-full text-center hover:bg-gray-100"
+          >
+            Hashtags
+          </Link>
+          <Link
             href="/tools/rewriter"
             className="py-2 w-full text-center hover:bg-gray-100"
           >
@@ -48,12 +63,6 @@ export default function Navbar() {
             className="py-2 w-full text-center hover:bg-gray-100"
           >
             Summarizer
-          </Link>
-          <Link
-            href="/tools/caption"
-            className="py-2 w-full text-center hover:bg-gray-100"
-          >
-            Captions
           </Link>
           <Link
             href="/about"
