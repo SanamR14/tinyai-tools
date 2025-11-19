@@ -1,6 +1,12 @@
 "use client";
 import { useState } from "react";
 
+export const metadata = {
+  title: "AI summarizer | TinyAI Tools",
+  description: "Summarize your text instantly with our free AI-powered summarizer tool.",
+};
+
+
 export default function Summarizer() {
   const [inputText, setInputText] = useState("");
   const [summary, setSummary] = useState("");

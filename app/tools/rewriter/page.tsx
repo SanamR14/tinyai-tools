@@ -1,6 +1,11 @@
 "use client";
 import { useState } from "react";
 
+export const metadata = {
+  title: "AI Text Rewriter | TinyAI Tools",
+  description: "Rewrite text instantly with our free AI-powered rewriter tool.",
+};
+
 export default function TextRewriter() {
   const [inputText, setInputText] = useState("");
   const [output, setOutput] = useState("");

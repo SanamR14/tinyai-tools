@@ -1,6 +1,12 @@
 "use client";
 import { useState } from "react";
 
+export const metadata = {
+  title: "Instagram caption generator | TinyAI Tools",
+  description:
+    "Create instant captions for instagram with our free AI-powered caption generator tool.",
+};
+
 export default function CaptionGenerator() {
   const [topic, setTopic] = useState("");
   const [vibe, setVibe] = useState("funny");
