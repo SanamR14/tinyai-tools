@@ -1,12 +1,6 @@
 "use client";
 import { useState } from "react";
 
-export const metadata = {
-  title: "AI summarizer | TinyAI Tools",
-  description: "Summarize your text instantly with our free AI-powered summarizer tool.",
-};
-
-
 export default function Summarizer() {
   const [inputText, setInputText] = useState("");
   const [summary, setSummary] = useState("");
@@ -48,7 +42,8 @@ export default function Summarizer() {
       <div className="max-w-2xl w-full text-center">
         <h1 className="text-3xl font-bold mb-2">📄 AI Text Summarizer</h1>
         <p className="text-gray-500 mb-6">
-          Paste long text or articles below — AI will summarize them for you instantly.
+          Paste long text or articles below — AI will summarize them for you
+          instantly.
         </p>
 
         <textarea
